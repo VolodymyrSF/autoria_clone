@@ -31,7 +31,7 @@
 ```bash
 $ npm install
 ```
-## Database Setuo
+## Database Setup
 The project uses PostgreSQL
 
 Start the database with Docker Compose:
