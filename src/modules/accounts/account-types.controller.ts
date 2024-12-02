@@ -64,6 +64,7 @@ export class AccountTypesController {
       updateAccountTypeDto,
     );
   }
+
   @UseGuards(JwtAccessGuard, PermissionsGuard)
   @Permissions('see_all_account_type')
   @Get(':name')

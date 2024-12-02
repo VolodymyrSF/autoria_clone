@@ -31,6 +31,19 @@
 ```bash
 $ npm install
 ```
+## Database Setuo
+The project uses PostgreSQL
+
+Start the database with Docker Compose:
+```bash
+$ npm run start:docker:local
+```
+## Database Initialization
+Run migrations to set up the database structure:
+
+```bash
+$ npm run migration:run
+```
 
 ## Running the app
 
@@ -64,9 +77,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - @VOVASF in Telegram 
+- Author - safjanik.volody@gmail.con
+
 
 ## License
 

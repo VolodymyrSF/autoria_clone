@@ -17,7 +17,6 @@ export class UsersService {
     private readonly refreshTokenRepository: RefreshTokenRepository,
   ) {}
 
-  // Створення нового користувача
   async create(createUserDto: CreateUserReqDto): Promise<UserEntity> {
     const existingUser = await this.userRepository.findOne({
       where: { email: createUserDto.email },
